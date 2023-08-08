@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px; 
+}
+
+
+.regi-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#user-form{
+    background-color: paleturquoise;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px ghostwhite;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+#user-form h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-table{
+    margin: 10px 0px;
+}
+
+input{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 0px solid;
+    background-color: hwb(0 89% 7%);
+}
+
+#submit-btn{
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: 0px solid;
+    width: 120px;
+    margin-top: 15px;
+}
+
+.Entries-warp{
+    margin: 50px auto 0px auto;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.Entries-title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#user-entries{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
